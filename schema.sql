@@ -10,9 +10,9 @@ CREATE TABLE IF NOT EXISTS usuarios (
   criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Inserções de exemplo
+-- Inserções 
 INSERT INTO usuarios (nome, email) VALUES
-('Giovanni Barreto', 'giovanni@gmail.com'),
-('Maria Oliveira', 'maria@gmail.com'),
-('João Santos', 'joao@gmail.com')
+('Pedro Bazante', 'pedrobazante@gmail.com'),
+('Gustavo Lima', 'gustavolimaevc@gmail.com'),
+('Enzo Gabriel', 'farmadordeaura.xiquexiqueBH_67@gmail.com')
 ON DUPLICATE KEY UPDATE nome = VALUES(nome);
