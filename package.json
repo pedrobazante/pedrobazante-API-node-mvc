@@ -1,7 +1,6 @@
 {
-  "name": "giovanni-api-node-com-sql",
+  "name": "pedrobazante-API-node-mvc",
   "version": "1.0.0",
-  "description": "API REST com Node.js e MySQL",
   "main": "src/server.js",
   "devDependencies": {},
   "scripts": {
